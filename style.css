@@ -321,6 +321,10 @@ footer .footer-nav h5 {
     }
 }
 
+.footer-nav-mobile {
+    display: none;
+}
+
 
 /* ---------------------------------------- Responsive Part --------------------------------------*/
 
@@ -439,5 +443,46 @@ footer .footer-nav h5 {
     }
     .last-message>a {
         margin-top: 40px;
+    }
+    footer {
+        display: block;
+        padding: 0 24px;
+    }
+    footer .footer-nav {
+        display: none;
+    }
+    .footer-nav-mobile {
+        display: block;
+    }
+    .footer-nav-mobile .socials {
+        padding-top: 30px;
+    }
+    .footer-nav-mobile .socials h4 {
+        font-size: 24px;
+        padding-bottom: 18px;
+        color: #7289da;
+    }
+    .footer-nav-mobile .socials img {
+        width: 24px;
+        padding-right: 20px;
+    }
+    .footer-nav-mobile table {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-nav-mobile table tbody .heading {
+        color: #7289da;
+        margin-top: 20px;
+    }
+    table tbody tr td {
+        padding-right: 30px;
+    }
+    table tbody tr td a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px;
+    }
+    .footer-bar {
+        border-top: 1px solid #7289da;
     }
 } 
