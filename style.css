@@ -224,7 +224,6 @@ header .hamburger {
 }
 
 footer {
-    width: 100%;
     padding-top: 5rem;
     padding-bottom: 5rem;
     color: white;
@@ -328,7 +327,7 @@ footer .footer-nav h5 {
 
 /* ---------------------------------------- Responsive Part --------------------------------------*/
 
-@media screen and (max-width:980px) {
+@media screen and (max-width:768px) {
     * {
         margin: 0;
         padding: 0;
