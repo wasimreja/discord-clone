@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -36,7 +37,7 @@
         <img class="cloud" src="img/cloud.svg" width="35px">
 
     </div>
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <img class="container-img" src="img/container-1.svg">
         <div class="description">
             <h2>An invite-only place with plenty of room to talk</h2>
@@ -44,7 +45,7 @@
         </div>
     </div>
 
-    <div class="container2">
+    <div class="container2" data-aos="fade-up">
         <div class="description">
             <h2>Where hanging out is easy</h2>
             <p>Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.</p>
@@ -52,7 +53,7 @@
         <img class="container-img" src="img/container-2.svg">
     </div>
 
-    <div class="container2-mobile">
+    <div class="container2-mobile" data-aos="fade-up">
         <img class="container-img" src="img/container-2.svg">
         <div class="description">
             <h2>Where hanging out is easy</h2>
@@ -60,14 +61,14 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <img class="container-img" src="img/container-3.svg">
         <div class="description">
             <h2>From a few to a fandom</h2>
             <p>Get a community of any size running with moderation tools and custom member access. Give members special powers, set up private channels, and more.</p>
         </div>
     </div>
-    <div class="bottom-container">
+    <div class="bottom-container" data-aos="fade-up">
         <div class="description">
             <h2>Reliable tech for staying close</h2>
             <p>Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
@@ -303,7 +304,13 @@
             <a href="https://discord.com/channels/@me">Open Discord</a>
         </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1000
+        });
+    </script>
 </body>
 
 </html>
